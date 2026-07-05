@@ -1,0 +1,92 @@
+├───app
+│   ├───Controllers
+│   │   │   HomeController.php
+│   │   │
+│   │   ├───Auth
+│   │   │       AuthController.php
+│   │   │
+│   │   ├───Doctor
+│   │   │       AnnouncementController.php
+│   │   │       ContentController.php
+│   │   │       CourseController.php
+│   │   │       DashboardController.php
+│   │   │       ProfileController.php
+│   │   │       QuestionController.php
+│   │   │
+│   │   └───Student
+│   │           CourseController.php
+│   │           DashboardController.php
+│   │           ProfileController.php
+│   │
+│   ├───Models
+│   │       Announcement.php
+│   │       Content.php
+│   │       Course.php
+│   │       Doctor.php
+│   │       Student.php
+│   │       StudentQuestion.php
+│   │
+│   └───Views
+│       ├───auth
+│       │       login.php
+│       │       register.php
+│       │
+│       ├───doctor
+│       │       content_edit.php
+│       │       courses.php
+│       │       course_detail.php
+│       │       course_form.php
+│       │       dashboard.php
+│       │       profile.php
+│       │       questions.php
+│       │       students_list.php
+│       │
+│       ├───home
+│       │       courses.php
+│       │       index.php
+│       │
+│       ├───layouts
+│       │       auth.php
+│       │       main.php
+│       │       public.php
+│       │
+│       └───student
+│               courses.php
+│               course_detail.php
+│               dashboard.php
+│               profile.php
+│               view_content.php
+│
+├───config
+│       config.php
+│
+├───core
+│       Controller.php
+│       Database.php
+│       Model.php
+│       Router.php
+│       View.php
+│
+├───db
+│       schema.sql
+│       seed.php
+│       setup.php
+│
+├───helpers
+│       functions.php
+│
+└───public
+    │   index.php
+    │   router.php
+    │
+    ├───assets
+    │   ├───css
+    │   │       style.css
+    │   │
+    │   └───js
+    │           main.js
+    │
+    └───uploads
+        ├───images
+        ├───pdfs
+        └───videos
